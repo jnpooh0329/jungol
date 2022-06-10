@@ -11,8 +11,9 @@ public class Jungol {
 		
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = sc.nextInt();
-			System.out.println("sum : " + even);
-			System.out.println((sum1 + sum2) / 2);
+		}
+		System.out.println("sum : " + even);
+		System.out.println("avg : %.1f\n", (double) odd / (ar.length / 2));
 		}
 	}
 }
